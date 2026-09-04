@@ -1,0 +1,75 @@
+about:
+  description: Apache ZooKeeper
+  license: Apache-2.0
+  homepage: https://zookeeper.apache.org
+  head: 3c5e973
+  archived: false
+  latestVersion: 
+  collectedAt: 2026-09-04T05:01:16Z
+timeline:
+  created: 2009-03-27
+  lastCommit: 2026-09-03
+  lastRelease: ?
+popularity:
+  star: 12795
+  watcher: 652
+  fork: 7322
+  release: 0
+  contributor: 277
+  pullRequest: 2119
+  issue: 0
+language:
+  Java: 7509049
+  C++: 715161
+  C: 641861
+  MDX: 499436
+  TypeScript: 465266
+  TLA: 216678
+  Python: 164708
+  Perl: 154571
+  XS: 68654
+  Shell: 62752
+  M4: 52001
+  HTML: 41529
+  Mako: 13722
+  Makefile: 11657
+  JavaScript: 11451
+  CMake: 10558
+  CSS: 9600
+  Batchfile: 9149
+  XSLT: 6024
+  Dockerfile: 1053
+totalLine: 10664880
+recent:
+  last30d:
+    since: 2026-08-05
+    release: 0
+    mergedPR: 14
+    openPR: 6
+    closedIssue: 0
+    openIssue: 0
+    commit: 13
+  last90d:
+    since: 2026-06-06
+    release: 0
+    mergedPR: 30
+    openPR: 18
+    closedIssue: 0
+    openIssue: 0
+    commit: 31
+  last180d:
+    since: 2026-03-08
+    release: 0
+    mergedPR: 53
+    openPR: 30
+    closedIssue: 0
+    openIssue: 0
+    commit: 47
+  last360d:
+    since: 2025-09-09
+    release: 0
+    mergedPR: 81
+    openPR: 39
+    closedIssue: 0
+    openIssue: 0
+    commit: 76
