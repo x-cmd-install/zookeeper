@@ -7,7 +7,7 @@ about:
   head: 3c5e973
   archived: false
   latestVersion: 
-  collectedAt: 2026-09-04T19:56:27Z
+  collectedAt: 2026-09-04T20:44:36Z
 timeline:
   created: 2009-03-27
   lastCommit: 2026-09-03
@@ -99,6 +99,154 @@ total:
   openIssue: 0
   commit: 2733
 ---
+path: /home/runner/.x-repo/github.com/apache/zookeeper
+collectedAt: 2026-09-04T20:44:41Z
+loc:
+  Java:
+    code: 126091
+    comments: 42422
+    blanks: 24291
+    files: 940
+  Json:
+    code: 15652
+    comments: 0
+    blanks: 1
+    files: 11
+  Cpp:
+    code: 11394
+    comments: 3323
+    blanks: 1807
+    files: 35
+  C:
+    code: 10437
+    comments: 1279
+    blanks: 1380
+    files: 16
+  Tsx:
+    code: 7737
+    comments: 1763
+    blanks: 871
+    files: 94
+  Xml:
+    code: 4917
+    comments: 1469
+    blanks: 515
+    files: 53
+  CHeader:
+    code: 4896
+    comments: 4903
+    blanks: 1091
+    files: 41
+  Python:
+    code: 3121
+    comments: 641
+    blanks: 868
+    files: 36
+  TypeScript:
+    code: 2802
+    comments: 998
+    blanks: 492
+    files: 42
+  Perl:
+    code: 1202
+    comments: 53
+    blanks: 179
+    files: 3
+  Sh:
+    code: 1068
+    comments: 682
+    blanks: 234
+    files: 24
+  Html:
+    code: 696
+    comments: 113
+    blanks: 155
+    files: 9
+  M4:
+    code: 590
+    comments: 297
+    blanks: 64
+    files: 3
+  Automake:
+    code: 420
+    comments: 223
+    blanks: 210
+    files: 10
+  Svg:
+    code: 365
+    comments: 54
+    blanks: 0
+    files: 3
+  Css:
+    code: 263
+    comments: 50
+    blanks: 30
+    files: 2
+  ForgeConfig:
+    code: 263
+    comments: 819
+    blanks: 387
+    files: 9
+  JavaScript:
+    code: 238
+    comments: 128
+    blanks: 37
+    files: 5
+  CMake:
+    code: 220
+    comments: 88
+    blanks: 39
+    files: 2
+  XSL:
+    code: 164
+    comments: 17
+    blanks: 21
+    files: 2
+  Batch:
+    code: 83
+    comments: 104
+    blanks: 40
+    files: 8
+  Autoconf:
+    code: 62
+    comments: 48
+    blanks: 47
+    files: 1
+  Bitbake:
+    code: 47
+    comments: 22
+    blanks: 7
+    files: 3
+  Dockerfile:
+    code: 15
+    comments: 18
+    blanks: 2
+    files: 1
+  Yaml:
+    code: 5
+    comments: 14
+    blanks: 0
+    files: 1
+  Makefile:
+    code: 4
+    comments: 13
+    blanks: 4
+    files: 1
+  Markdown:
+    code: 0
+    comments: 1119
+    blanks: 696
+    files: 18
+  Text:
+    code: 0
+    comments: 8383
+    blanks: 1809
+    files: 53
+total:
+  code: 192927
+  comments: 69044
+  blanks: 35300
+  files: 1426
 ---
 date: "2026-08-24"
 repo:
