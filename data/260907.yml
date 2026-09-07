@@ -5,13 +5,13 @@ about:
   head: 3c5e973
   archived: false
   latestVersion: ""
-  collectedAt: 2026-09-07T04:44:05Z
+  collectedAt: 2026-09-07T19:42:32Z
 timeline:
   created: 2009-03-27
   lastCommit: 2026-09-03
   lastRelease: 
 popularity:
-  star: 12799
+  star: 12798
   watcher: 652
   fork: 7322
   release: 0
@@ -98,7 +98,7 @@ total:
   commit: 2733
 ---
 path: /home/runner/.x-repo/github.com/apache/zookeeper
-collectedAt: 2026-09-07T04:44:53Z
+collectedAt: 2026-09-07T19:42:47Z
 loc:
   Java:
     code: 126091
@@ -336,7 +336,7 @@ checks:
       - 'Warn: 0 commits out of 30 are checked with a SAST tool'
 ---
 eget:
-  collectedAt: 2026-09-07T04:44:57+00:00
+  collectedAt: 2026-09-07T19:42:48+00:00
   platform:
     darwin/arm64:
       name:  null
