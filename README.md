@@ -42,22 +42,22 @@ Lowest-scoring checks:
 
 ## Popularity
 
-- **Stars**: 12,805 · **Forks**: 7,319 · **Open issues**: 0 · **Contributors**: 265
+- **Stars**: 12,805 · **Forks**: 7,318 · **Open issues**: 0 · **Contributors**: 265
 
 ## Totals (cumulative)
 
-- **Releases**: 0 · **Merged PRs**: 331 · **Open PRs**: 241 · **Closed issues**: 0 · **Open issues**: 0 · **Commits**: 2738
+- **Releases**: 0 · **Merged PRs**: 331 · **Open PRs**: 242 · **Closed issues**: 0 · **Open issues**: 0 · **Commits**: 2738
 
 ## Recent activity
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-08-17 | 0 | 9 | 9 | 0 | 0 | 14 |
-| last60d | 2026-07-18 | 0 | 17 | 15 | 0 | 0 | 18 |
-| 90d | 2026-06-18 | 0 | 31 | 18 | 0 | 0 | 33 |
-| last180d | 2026-03-20 | 0 | 52 | 32 | 0 | 0 | 50 |
-| 360d | 2025-09-21 | 0 | 81 | 41 | 0 | 0 | 76 |
-| last720d | 2024-09-26 | 0 | 166 | 53 | 0 | 0 | 154 |
+| 30d | 2026-08-18 | 0 | 9 | 10 | 0 | 0 | 14 |
+| last60d | 2026-07-19 | 0 | 17 | 16 | 0 | 0 | 18 |
+| 90d | 2026-06-19 | 0 | 31 | 19 | 0 | 0 | 33 |
+| last180d | 2026-03-21 | 0 | 52 | 33 | 0 | 0 | 50 |
+| 360d | 2025-09-22 | 0 | 81 | 42 | 0 | 0 | 76 |
+| last720d | 2024-09-27 | 0 | 165 | 54 | 0 | 0 | 154 |
 
 ## Improve this data
 
@@ -68,4 +68,4 @@ Install metadata for zookeeper lives in the [x-cmd/install](https://github.com/x
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/260916.yml` · 2026-09-16T05:13:04Z._
+_Snapshot: `data/card/260917.yml` · 2026-09-17T05:12:44Z._
