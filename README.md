@@ -14,11 +14,11 @@ x install zookeeper
 
 ## Code insight
 
-Total: **191,465** lines of code across **1102** files in the top 5 languages.
+Total: **191,626** lines of code across **1103** files in the top 5 languages.
 
 | Language | Code | Comments | Blanks | Files |
 |----------|-----:|---------:|-------:|------:|
-| Java | 126,881 | 42,613 | 24,421 | 945 |
+| Java | 127,042 | 42,631 | 24,447 | 946 |
 | Json | 13,502 | 0 | 1 | 11 |
 | Cpp | 11,394 | 3,323 | 1,807 | 35 |
 | C | 10,437 | 1,279 | 1,380 | 16 |
@@ -42,22 +42,22 @@ Lowest-scoring checks:
 
 ## Popularity
 
-- **Stars**: 12,812 · **Forks**: 7,320 · **Open issues**: 0 · **Contributors**: 267
+- **Stars**: 12,814 · **Forks**: 7,321 · **Open issues**: 0 · **Contributors**: 268
 
 ## Totals (cumulative)
 
-- **Releases**: 0 · **Merged PRs**: 335 · **Open PRs**: 242 · **Closed issues**: 0 · **Open issues**: 0 · **Commits**: 2742
+- **Releases**: 0 · **Merged PRs**: 337 · **Open PRs**: 241 · **Closed issues**: 0 · **Open issues**: 0 · **Commits**: 2744
 
 ## Recent activity
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-08-30 | 0 | 8 | 9 | 0 | 0 | 10 |
-| last60d | 2026-07-31 | 0 | 18 | 15 | 0 | 0 | 22 |
-| 90d | 2026-07-01 | 0 | 27 | 20 | 0 | 0 | 33 |
-| last180d | 2026-04-02 | 0 | 53 | 31 | 0 | 0 | 52 |
-| 360d | 2025-10-04 | 0 | 81 | 42 | 0 | 0 | 77 |
-| last720d | 2024-10-09 | 0 | 164 | 53 | 0 | 0 | 156 |
+| 30d | 2026-08-31 | 0 | 6 | 10 | 0 | 0 | 12 |
+| last60d | 2026-08-01 | 0 | 20 | 13 | 0 | 0 | 24 |
+| 90d | 2026-07-02 | 0 | 28 | 19 | 0 | 0 | 35 |
+| last180d | 2026-04-03 | 0 | 55 | 30 | 0 | 0 | 54 |
+| 360d | 2025-10-05 | 0 | 83 | 41 | 0 | 0 | 79 |
+| last720d | 2024-10-10 | 0 | 165 | 52 | 0 | 0 | 158 |
 
 ## Improve this data
 
@@ -68,4 +68,4 @@ Install metadata for zookeeper lives in the [x-cmd/install](https://github.com/x
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/260929.yml` · 2026-09-29T05:56:14Z._
+_Snapshot: `data/card/260930.yml` · 2026-09-30T05:44:30Z._
