@@ -30,8 +30,8 @@ Overall score: **6.3 / 10**
 
 Lowest-scoring checks:
 
-- **Token-Permissions** (0/10) — detected GitHub workflow tokens with excessive permissions
 - **Packaging** (-1/10) — packaging workflow not detected
+- **Token-Permissions** (0/10) — detected GitHub workflow tokens with excessive permissions
 - **CII-Best-Practices** (0/10) — no effort to earn an OpenSSF best practices badge detected
 
 ## Source
@@ -42,22 +42,22 @@ Lowest-scoring checks:
 
 ## Popularity
 
-- **Stars**: 12,815 · **Forks**: 7,320 · **Open issues**: 0 · **Contributors**: 269
+- **Stars**: 12,817 · **Forks**: 7,321 · **Open issues**: 0 · **Contributors**: 269
 
 ## Totals (cumulative)
 
-- **Releases**: 0 · **Merged PRs**: 346 · **Open PRs**: 240 · **Closed issues**: 0 · **Open issues**: 0 · **Commits**: 2756
+- **Releases**: 0 · **Merged PRs**: 346 · **Open PRs**: 241 · **Closed issues**: 0 · **Open issues**: 0 · **Commits**: 2756
 
 ## Recent activity
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-09-12 | 0 | 9 | 8 | 0 | 0 | 16 |
-| last60d | 2026-08-13 | 0 | 23 | 12 | 0 | 0 | 32 |
-| 90d | 2026-07-14 | 0 | 29 | 18 | 0 | 0 | 36 |
-| last180d | 2026-04-15 | 0 | 63 | 28 | 0 | 0 | 63 |
-| 360d | 2025-10-17 | 0 | 86 | 40 | 0 | 0 | 91 |
-| last720d | 2024-10-22 | 0 | 170 | 50 | 0 | 0 | 164 |
+| 30d | 2026-09-13 | 0 | 9 | 9 | 0 | 0 | 16 |
+| last60d | 2026-08-14 | 0 | 22 | 13 | 0 | 0 | 32 |
+| 90d | 2026-07-15 | 0 | 29 | 18 | 0 | 0 | 36 |
+| last180d | 2026-04-16 | 0 | 63 | 29 | 0 | 0 | 63 |
+| 360d | 2025-10-18 | 0 | 86 | 41 | 0 | 0 | 91 |
+| last720d | 2024-10-23 | 0 | 169 | 51 | 0 | 0 | 164 |
 
 ## Improve this data
 
@@ -68,4 +68,4 @@ Install metadata for zookeeper lives in the [x-cmd/install](https://github.com/x
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/261012.yml` · 2026-10-12T06:08:51Z._
+_Snapshot: `data/card/261013.yml` · 2026-10-13T06:58:16Z._
