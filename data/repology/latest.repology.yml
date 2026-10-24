@@ -212,20 +212,25 @@
 - repo: wikidata
   srcname: Q4778968
   visiblename: Apache ZooKeeper
-  version: 3.9.7-0
+  version: 3.9.7-1
   origversion: null
   status: newest
   summary: system for distributed coordination
   licenses:
     - Apache License
-- repo: haikuports_master
-  srcname: haiku-apps/zookeeper
-  visiblename: haiku-apps/zookeeper
-  version: 2.1.1
+- repo: nix_stable_24_05
+  srcname: zookeeper
+  visiblename: zookeeper
+  version: 3.9.2
   origversion: null
   status: outdated
-  categories:
-    - haiku-apps
+  summary: Apache Zookeeper
+  maintainers:
+    - nathan@nathan.gs
+    - pradeep.chhetri89@gmail.com
+    - dd@crosstwine.com
+  licenses:
+    - Apache-2.0
   vulnerable: true
 - repo: altsisyphus
   srcname: apache-zookeeper
@@ -488,18 +493,28 @@
   categories:
     - devel
   vulnerable: true
-- repo: nix_stable_26_05
+- repo: openeuler_22_03_lts_sp4
   srcname: zookeeper
+  binnames:
+    - zookeeper
   visiblename: zookeeper
-  version: 3.9.5
+  version: 3.6.2
+  origversion: 3.6.2-2.4.oe2203sp4
+  status: outdated
+  summary: High-performance coordination service for distributed applications.
+  licenses:
+    - Apache-2.0 and OpenSSL and SSLeay and MIT and BSD
+  categories:
+    - Applications/Databases
+  vulnerable: true
+- repo: haikuports_master
+  srcname: haiku-apps/zookeeper
+  visiblename: haiku-apps/zookeeper
+  version: 2.1.1
   origversion: null
   status: outdated
-  summary: Apache Zookeeper
-  maintainers:
-    - nathan@nathan.gs
-    - dd@crosstwine.com
-  licenses:
-    - Apache-2.0
+  categories:
+    - haiku-apps
   vulnerable: true
 - repo: liguros_stable
   srcname: sys-cluster/zookeeper-bin
@@ -561,20 +576,6 @@
   categories:
     - devel
   vulnerable: true
-- repo: nix_stable_24_05
-  srcname: zookeeper
-  visiblename: zookeeper
-  version: 3.9.2
-  origversion: null
-  status: outdated
-  summary: Apache Zookeeper
-  maintainers:
-    - nathan@nathan.gs
-    - pradeep.chhetri89@gmail.com
-    - dd@crosstwine.com
-  licenses:
-    - Apache-2.0
-  vulnerable: true
 - repo: nix_stable_24_11
   srcname: zookeeper
   visiblename: zookeeper
@@ -606,6 +607,19 @@
   srcname: zookeeper
   visiblename: zookeeper
   version: 3.9.4
+  origversion: null
+  status: outdated
+  summary: Apache Zookeeper
+  maintainers:
+    - nathan@nathan.gs
+    - dd@crosstwine.com
+  licenses:
+    - Apache-2.0
+  vulnerable: true
+- repo: nix_stable_26_05
+  srcname: zookeeper
+  visiblename: zookeeper
+  version: 3.9.5
   origversion: null
   status: outdated
   summary: Apache Zookeeper
@@ -673,20 +687,6 @@
   visiblename: zookeeper
   version: 3.6.2
   origversion: 3.6.2-2.4.oe2203sp3
-  status: outdated
-  summary: High-performance coordination service for distributed applications.
-  licenses:
-    - Apache-2.0 and OpenSSL and SSLeay and MIT and BSD
-  categories:
-    - Applications/Databases
-  vulnerable: true
-- repo: openeuler_22_03_lts_sp4
-  srcname: zookeeper
-  binnames:
-    - zookeeper
-  visiblename: zookeeper
-  version: 3.6.2
-  origversion: 3.6.2-2.4.oe2203sp4
   status: outdated
   summary: High-performance coordination service for distributed applications.
   licenses:
