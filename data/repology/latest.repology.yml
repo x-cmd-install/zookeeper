@@ -1,3 +1,12 @@
+- repo: scoop
+  subrepo: main
+  binname: zookeeper
+  visiblename: zookeeper
+  version: 3.9.6
+  origversion: null
+  status: outdated
+  licenses:
+    - Apache-2.0
 - repo: aur
   srcname: libzookeeper-git
   binname: libzookeeper-git
@@ -140,7 +149,7 @@
     - python3-zookeeper
   visiblename: zookeeper
   version: 3.9.6
-  origversion: 3.9.6-1
+  origversion: 3.9.6-2
   status: outdated
   maintainers:
     - pkg-java-maintainers@lists.alioth.debian.org
@@ -176,6 +185,15 @@
     - Apache-2.0
   categories:
     - sys-cluster
+- repo: wikidata
+  srcname: Q4778968
+  visiblename: Apache ZooKeeper
+  version: 3.9.7-1
+  origversion: null
+  status: newest
+  summary: system for distributed coordination
+  licenses:
+    - Apache License
 - repo: raspbian_testing
   subrepo: main
   srcname: zookeeper
@@ -200,37 +218,14 @@
     - tmancill@debian.org
   categories:
     - net
-- repo: scoop
-  subrepo: main
-  binname: zookeeper
-  visiblename: zookeeper
-  version: 3.9.6
+- repo: slackbuilds
+  srcname: system/zookeeper
+  visiblename: system/zookeeper
+  version: 3.4.10
   origversion: null
   status: outdated
-  licenses:
-    - Apache-2.0
-- repo: wikidata
-  srcname: Q4778968
-  visiblename: Apache ZooKeeper
-  version: 3.9.7-1
-  origversion: null
-  status: newest
-  summary: system for distributed coordination
-  licenses:
-    - Apache License
-- repo: nix_stable_24_05
-  srcname: zookeeper
-  visiblename: zookeeper
-  version: 3.9.2
-  origversion: null
-  status: outdated
-  summary: Apache Zookeeper
-  maintainers:
-    - nathan@nathan.gs
-    - pradeep.chhetri89@gmail.com
-    - dd@crosstwine.com
-  licenses:
-    - Apache-2.0
+  categories:
+    - system
   vulnerable: true
 - repo: altsisyphus
   srcname: apache-zookeeper
@@ -268,6 +263,15 @@
   origversion: null
   status: outdated
   summary: Apache zookeeper Installation
+  vulnerable: true
+- repo: slackbuilds
+  srcname: libraries/libzookeeper
+  visiblename: libraries/libzookeeper
+  version: 3.4.6
+  origversion: null
+  status: outdated
+  categories:
+    - libraries
   vulnerable: true
 - repo: debian_11
   subrepo: bullseye/main
@@ -343,6 +347,14 @@
     - tmancill@debian.org
   categories:
     - net
+  vulnerable: true
+- repo: vcpkg
+  srcname: zookeeper
+  visiblename: zookeeper
+  version: 3.8.5
+  origversion: null
+  status: outdated
+  summary: ZooKeeper C bindings
   vulnerable: true
 - repo: debian_12
   subrepo: bookworm-security/main
@@ -493,20 +505,6 @@
   categories:
     - devel
   vulnerable: true
-- repo: openeuler_22_03_lts_sp4
-  srcname: zookeeper
-  binnames:
-    - zookeeper
-  visiblename: zookeeper
-  version: 3.6.2
-  origversion: 3.6.2-2.4.oe2203sp4
-  status: outdated
-  summary: High-performance coordination service for distributed applications.
-  licenses:
-    - Apache-2.0 and OpenSSL and SSLeay and MIT and BSD
-  categories:
-    - Applications/Databases
-  vulnerable: true
 - repo: haikuports_master
   srcname: haiku-apps/zookeeper
   visiblename: haiku-apps/zookeeper
@@ -575,6 +573,20 @@
     - Apache-2
   categories:
     - devel
+  vulnerable: true
+- repo: nix_stable_24_05
+  srcname: zookeeper
+  visiblename: zookeeper
+  version: 3.9.2
+  origversion: null
+  status: outdated
+  summary: Apache Zookeeper
+  maintainers:
+    - nathan@nathan.gs
+    - pradeep.chhetri89@gmail.com
+    - dd@crosstwine.com
+  licenses:
+    - Apache-2.0
   vulnerable: true
 - repo: nix_stable_24_11
   srcname: zookeeper
@@ -687,6 +699,20 @@
   visiblename: zookeeper
   version: 3.6.2
   origversion: 3.6.2-2.4.oe2203sp3
+  status: outdated
+  summary: High-performance coordination service for distributed applications.
+  licenses:
+    - Apache-2.0 and OpenSSL and SSLeay and MIT and BSD
+  categories:
+    - Applications/Databases
+  vulnerable: true
+- repo: openeuler_22_03_lts_sp4
+  srcname: zookeeper
+  binnames:
+    - zookeeper
+  visiblename: zookeeper
+  version: 3.6.2
+  origversion: 3.6.2-2.4.oe2203sp4
   status: outdated
   summary: High-performance coordination service for distributed applications.
   licenses:
@@ -889,19 +915,6 @@
     - devel
   vulnerable: true
 - repo: pkgsrc_2026_3
-  srcname: devel/libzookeeper
-  binname: libzookeeper
-  visiblename: devel/libzookeeper
-  version: 3.4.12
-  origversion: null
-  status: outdated
-  summary: Highly reliable distributed coordination C lib
-  maintainers:
-    - pkgsrc-users@netbsd.org
-  categories:
-    - devel
-  vulnerable: true
-- repo: pkgsrc_2026_3
   srcname: devel/zookeeper
   binname: zookeeper
   visiblename: devel/zookeeper
@@ -909,6 +922,19 @@
   origversion: null
   status: outdated
   summary: Highly reliable distributed coordination server
+  maintainers:
+    - pkgsrc-users@netbsd.org
+  categories:
+    - devel
+  vulnerable: true
+- repo: pkgsrc_2026_3
+  srcname: devel/libzookeeper
+  binname: libzookeeper
+  visiblename: devel/libzookeeper
+  version: 3.4.12
+  origversion: null
+  status: outdated
+  summary: Highly reliable distributed coordination C lib
   maintainers:
     - pkgsrc-users@netbsd.org
   categories:
@@ -1087,24 +1113,6 @@
     - ASL 2.0 and BSD
   categories:
     - Development/Java
-  vulnerable: true
-- repo: slackbuilds
-  srcname: libraries/libzookeeper
-  visiblename: libraries/libzookeeper
-  version: 3.4.6
-  origversion: null
-  status: outdated
-  categories:
-    - libraries
-  vulnerable: true
-- repo: slackbuilds
-  srcname: system/zookeeper
-  visiblename: system/zookeeper
-  version: 3.4.10
-  origversion: null
-  status: outdated
-  categories:
-    - system
   vulnerable: true
 - repo: spack
   srcname: zookeeper
@@ -1416,12 +1424,4 @@
     - tmancill@debian.org
   categories:
     - universe/java
-  vulnerable: true
-- repo: vcpkg
-  srcname: zookeeper
-  visiblename: zookeeper
-  version: 3.8.5
-  origversion: null
-  status: outdated
-  summary: ZooKeeper C bindings
   vulnerable: true
