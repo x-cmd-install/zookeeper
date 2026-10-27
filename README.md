@@ -14,14 +14,14 @@ x install zookeeper
 
 ## Code insight
 
-Total: **193,266** lines of code across **1109** files in the top 5 languages.
+Total: **193,620** lines of code across **1109** files in the top 5 languages.
 
 | Language | Code | Comments | Blanks | Files |
 |----------|-----:|---------:|-------:|------:|
 | Java | 128,676 | 43,091 | 24,685 | 952 |
 | Json | 13,502 | 0 | 1 | 11 |
-| Cpp | 11,394 | 3,323 | 1,807 | 35 |
-| C | 10,437 | 1,279 | 1,380 | 16 |
+| Cpp | 11,467 | 3,348 | 1,815 | 35 |
+| C | 10,699 | 1,410 | 1,387 | 16 |
 | Tsx | 7,750 | 1,780 | 874 | 95 |
 
 ## OpenSSF Scorecard
@@ -42,22 +42,22 @@ Lowest-scoring checks:
 
 ## Popularity
 
-- **Stars**: 12,822 · **Forks**: 7,325 · **Open issues**: 0 · **Contributors**: 269
+- **Stars**: 12,822 · **Forks**: 7,326 · **Open issues**: 0 · **Contributors**: 270
 
 ## Totals (cumulative)
 
-- **Releases**: 0 · **Merged PRs**: 350 · **Open PRs**: 245 · **Closed issues**: 0 · **Open issues**: 0 · **Commits**: 2760
+- **Releases**: 0 · **Merged PRs**: 351 · **Open PRs**: 245 · **Closed issues**: 0 · **Open issues**: 0 · **Commits**: 2761
 
 ## Recent activity
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-09-26 | 0 | 9 | 10 | 0 | 0 | 9 |
-| last60d | 2026-08-27 | 0 | 20 | 17 | 0 | 0 | 29 |
-| 90d | 2026-07-28 | 0 | 32 | 22 | 0 | 0 | 40 |
-| last180d | 2026-04-29 | 0 | 61 | 33 | 0 | 0 | 63 |
-| 360d | 2025-10-31 | 0 | 90 | 44 | 0 | 0 | 94 |
-| last720d | 2024-11-05 | 0 | 169 | 55 | 0 | 0 | 167 |
+| 30d | 2026-09-27 | 0 | 10 | 10 | 0 | 0 | 10 |
+| last60d | 2026-08-28 | 0 | 20 | 17 | 0 | 0 | 30 |
+| 90d | 2026-07-29 | 0 | 33 | 21 | 0 | 0 | 41 |
+| last180d | 2026-04-30 | 0 | 62 | 33 | 0 | 0 | 64 |
+| 360d | 2025-11-01 | 0 | 91 | 44 | 0 | 0 | 95 |
+| last720d | 2024-11-06 | 0 | 170 | 55 | 0 | 0 | 168 |
 
 ## Distribution status
 
@@ -82,4 +82,4 @@ Install metadata for zookeeper lives in the [x-cmd/install](https://github.com/x
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/261026.yml` · 2026-10-26T04:45:48Z._
+_Snapshot: `data/card/261027.yml` · 2026-10-27T05:07:47Z._
