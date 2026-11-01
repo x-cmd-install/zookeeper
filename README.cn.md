@@ -42,7 +42,7 @@ x install zookeeper
 
 ## 流行度
 
-- **Star**: 12,825 · **Fork**: 7,327 · **开放 issue**: 0 · **贡献者**: 270
+- **Star**: 12,825 · **Fork**: 7,328 · **开放 issue**: 0 · **贡献者**: 270
 
 ## 累计统计
 
@@ -52,16 +52,16 @@ x install zookeeper
 
 | 时间窗口 | 起始 | 发布 | 已合并 PR | 开放 PR | 已关闭 issue | 开放 issue | 提交 |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-10-01 | 0 | 8 | 12 | 0 | 0 | 10 |
-| last60d | 2026-09-01 | 0 | 17 | 18 | 0 | 0 | 30 |
-| 90d | 2026-08-02 | 0 | 32 | 21 | 0 | 0 | 41 |
-| last180d | 2026-05-04 | 0 | 61 | 34 | 0 | 0 | 64 |
-| 360d | 2025-11-05 | 0 | 90 | 45 | 0 | 0 | 95 |
-| last720d | 2024-11-10 | 0 | 170 | 56 | 0 | 0 | 168 |
+| 30d | 2026-10-02 | 0 | 7 | 12 | 0 | 0 | 10 |
+| last60d | 2026-09-02 | 0 | 14 | 18 | 0 | 0 | 30 |
+| 90d | 2026-08-03 | 0 | 31 | 21 | 0 | 0 | 41 |
+| last180d | 2026-05-05 | 0 | 60 | 34 | 0 | 0 | 64 |
+| 360d | 2025-11-06 | 0 | 90 | 45 | 0 | 0 | 95 |
+| last720d | 2024-11-11 | 0 | 170 | 56 | 0 | 0 | 168 |
 
 ## 发行版状态
 
-在 [repology.org](https://repology.org/project/zookeeper) 上共有 **80** 个发行版报告此项目。**1** 个 ✅ 已是最新上游版本，**73** 个 ⚠️ 使用旧版本。
+在 [repology.org](https://repology.org/project/zookeeper) 上共有 **81** 个发行版报告此项目。**1** 个 ✅ 已是最新上游版本，**74** 个 ⚠️ 使用旧版本。
 
 | 发行版 | 版本 | 状态 |
 |--------|------|------|
@@ -70,7 +70,7 @@ x install zookeeper
 | Debian 13 | `3.9.3` | ⚠️ outdated |
 | Ubuntu 26.04 LTS | `3.9.5` | ⚠️ outdated |
 | Ubuntu 24.04 LTS | `3.9.1` | ⚠️ outdated |
-| Homebrew | `3.9.6` | ⚠️ outdated |
+| Homebrew | `3.9.7` | ⚠️ outdated |
 | Nix unstable | `3.9.5` | ⚠️ outdated |
 
 ## 改进这些数据
@@ -82,4 +82,4 @@ zookeeper 的安装元数据由 [x-cmd/install](https://github.com/x-cmd/install
 
 本页面的数据（card / loc / scorecard / release）由 [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) 自动采集，每日重新生成。**安装行为**（版本选择、平台差异、依赖处理）的改进应提交到上游索引。
 
-_数据快照: `data/card/261031.yml` · 2026-10-31T05:40:25Z._
+_数据快照: `data/card/261101.yml` · 2026-11-01T06:14:46Z._
