@@ -14,7 +14,7 @@ x install zookeeper
 
 ## Code insight
 
-Total: **193,620** lines of code across **1109** files in the top 5 languages.
+Total: **193,622** lines of code across **1109** files in the top 5 languages.
 
 | Language | Code | Comments | Blanks | Files |
 |----------|-----:|---------:|-------:|------:|
@@ -42,22 +42,22 @@ Lowest-scoring checks:
 
 ## Popularity
 
-- **Stars**: 12,826 · **Forks**: 7,327 · **Open issues**: 0 · **Contributors**: 270
+- **Stars**: 12,829 · **Forks**: 7,326 · **Open issues**: 0 · **Contributors**: 270
 
 ## Totals (cumulative)
 
-- **Releases**: 0 · **Merged PRs**: 351 · **Open PRs**: 246 · **Closed issues**: 0 · **Open issues**: 0 · **Commits**: 2761
+- **Releases**: 0 · **Merged PRs**: 351 · **Open PRs**: 248 · **Closed issues**: 0 · **Open issues**: 0 · **Commits**: 2762
 
 ## Recent activity
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-10-03 | 0 | 7 | 12 | 0 | 0 | 5 |
-| last60d | 2026-09-03 | 0 | 13 | 18 | 0 | 0 | 28 |
-| 90d | 2026-08-04 | 0 | 31 | 21 | 0 | 0 | 41 |
-| last180d | 2026-05-06 | 0 | 60 | 34 | 0 | 0 | 62 |
-| 360d | 2025-11-07 | 0 | 89 | 45 | 0 | 0 | 94 |
-| last720d | 2024-11-12 | 0 | 170 | 56 | 0 | 0 | 168 |
+| 30d | 2026-10-04 | 0 | 7 | 14 | 0 | 0 | 6 |
+| last60d | 2026-09-04 | 0 | 13 | 20 | 0 | 0 | 29 |
+| 90d | 2026-08-05 | 0 | 31 | 22 | 0 | 0 | 42 |
+| last180d | 2026-05-07 | 0 | 59 | 35 | 0 | 0 | 63 |
+| 360d | 2025-11-08 | 0 | 89 | 47 | 0 | 0 | 95 |
+| last720d | 2024-11-13 | 0 | 170 | 58 | 0 | 0 | 169 |
 
 ## Distribution status
 
@@ -82,4 +82,4 @@ Install metadata for zookeeper lives in the [x-cmd/install](https://github.com/x
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/261102.yml` · 2026-11-02T06:11:46Z._
+_Snapshot: `data/card/261103.yml` · 2026-11-03T06:57:47Z._
