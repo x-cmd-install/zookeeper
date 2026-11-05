@@ -14,11 +14,11 @@ x install zookeeper
 
 ## Code insight
 
-Total: **193,622** lines of code across **1109** files in the top 5 languages.
+Total: **193,625** lines of code across **1109** files in the top 5 languages.
 
 | Language | Code | Comments | Blanks | Files |
 |----------|-----:|---------:|-------:|------:|
-| Java | 128,676 | 43,091 | 24,685 | 952 |
+| Java | 128,679 | 43,091 | 24,688 | 952 |
 | Json | 13,502 | 0 | 1 | 11 |
 | Cpp | 11,467 | 3,348 | 1,815 | 35 |
 | C | 10,699 | 1,410 | 1,387 | 16 |
@@ -26,12 +26,12 @@ Total: **193,622** lines of code across **1109** files in the top 5 languages.
 
 ## OpenSSF Scorecard
 
-Overall score: **6.4 / 10**
+Overall score: **6.3 / 10**
 
 Lowest-scoring checks:
 
-- **Packaging** (-1/10) — packaging workflow not detected
 - **Token-Permissions** (0/10) — detected GitHub workflow tokens with excessive permissions
+- **Packaging** (-1/10) — packaging workflow not detected
 - **CII-Best-Practices** (0/10) — no effort to earn an OpenSSF best practices badge detected
 
 ## Source
@@ -42,26 +42,26 @@ Lowest-scoring checks:
 
 ## Popularity
 
-- **Stars**: 12,829 · **Forks**: 7,327 · **Open issues**: 0 · **Contributors**: 270
+- **Stars**: 12,831 · **Forks**: 7,327 · **Open issues**: 0 · **Contributors**: 271
 
 ## Totals (cumulative)
 
-- **Releases**: 0 · **Merged PRs**: 352 · **Open PRs**: 249 · **Closed issues**: 0 · **Open issues**: 0 · **Commits**: 2766
+- **Releases**: 0 · **Merged PRs**: 355 · **Open PRs**: 248 · **Closed issues**: 0 · **Open issues**: 0 · **Commits**: 2767
 
 ## Recent activity
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-10-05 | 0 | 4 | 15 | 0 | 0 | 10 |
-| last60d | 2026-09-05 | 0 | 14 | 21 | 0 | 0 | 33 |
-| 90d | 2026-08-06 | 0 | 32 | 23 | 0 | 0 | 46 |
-| last180d | 2026-05-08 | 0 | 59 | 36 | 0 | 0 | 67 |
-| 360d | 2025-11-09 | 0 | 90 | 48 | 0 | 0 | 99 |
-| last720d | 2024-11-14 | 0 | 170 | 59 | 0 | 0 | 173 |
+| 30d | 2026-10-06 | 0 | 7 | 14 | 0 | 0 | 11 |
+| last60d | 2026-09-06 | 0 | 17 | 20 | 0 | 0 | 34 |
+| 90d | 2026-08-07 | 0 | 34 | 22 | 0 | 0 | 47 |
+| last180d | 2026-05-09 | 0 | 62 | 35 | 0 | 0 | 68 |
+| 360d | 2025-11-10 | 0 | 93 | 47 | 0 | 0 | 100 |
+| last720d | 2024-11-15 | 0 | 173 | 58 | 0 | 0 | 174 |
 
 ## Distribution status
 
-Reported by **81** distros on [repology.org](https://repology.org/project/zookeeper). **1** are ✅ on the latest upstream release, **74** are ⚠️ on an older version.
+Reported by **80** distros on [repology.org](https://repology.org/project/zookeeper). **1** are ✅ on the latest upstream release, **73** are ⚠️ on an older version.
 
 | Distro | Version | Status |
 |--------|---------|--------|
@@ -82,4 +82,4 @@ Install metadata for zookeeper lives in the [x-cmd/install](https://github.com/x
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/261104.yml` · 2026-11-04T06:20:33Z._
+_Snapshot: `data/card/261105.yml` · 2026-11-05T06:49:01Z._

@@ -14,11 +14,11 @@ x install zookeeper
 
 ## 代码洞察
 
-合计: **193,622** 行代码（覆盖前 5 种语言、共 **1109** 个文件）。
+合计: **193,625** 行代码（覆盖前 5 种语言、共 **1109** 个文件）。
 
 | 语言 | 代码 | 注释 | 空行 | 文件数 |
 |------|-----:|-----:|-----:|------:|
-| Java | 128,676 | 43,091 | 24,685 | 952 |
+| Java | 128,679 | 43,091 | 24,688 | 952 |
 | Json | 13,502 | 0 | 1 | 11 |
 | Cpp | 11,467 | 3,348 | 1,815 | 35 |
 | C | 10,699 | 1,410 | 1,387 | 16 |
@@ -26,12 +26,12 @@ x install zookeeper
 
 ## OpenSSF Scorecard 评分
 
-总评分: **6.4 / 10**
+总评分: **6.3 / 10**
 
 评分最低的几项:
 
-- **Packaging** (-1/10) — packaging workflow not detected
 - **Token-Permissions** (0/10) — detected GitHub workflow tokens with excessive permissions
+- **Packaging** (-1/10) — packaging workflow not detected
 - **CII-Best-Practices** (0/10) — no effort to earn an OpenSSF best practices badge detected
 
 ## 源代码
@@ -42,26 +42,26 @@ x install zookeeper
 
 ## 流行度
 
-- **Star**: 12,829 · **Fork**: 7,327 · **开放 issue**: 0 · **贡献者**: 270
+- **Star**: 12,831 · **Fork**: 7,327 · **开放 issue**: 0 · **贡献者**: 271
 
 ## 累计统计
 
-- **发布数**: 0 · **已合并 PR**: 352 · **开放 PR**: 249 · **已关闭 issue**: 0 · **开放 issue**: 0 · **提交数**: 2766
+- **发布数**: 0 · **已合并 PR**: 355 · **开放 PR**: 248 · **已关闭 issue**: 0 · **开放 issue**: 0 · **提交数**: 2767
 
 ## 最近活动
 
 | 时间窗口 | 起始 | 发布 | 已合并 PR | 开放 PR | 已关闭 issue | 开放 issue | 提交 |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-10-05 | 0 | 4 | 15 | 0 | 0 | 10 |
-| last60d | 2026-09-05 | 0 | 14 | 21 | 0 | 0 | 33 |
-| 90d | 2026-08-06 | 0 | 32 | 23 | 0 | 0 | 46 |
-| last180d | 2026-05-08 | 0 | 59 | 36 | 0 | 0 | 67 |
-| 360d | 2025-11-09 | 0 | 90 | 48 | 0 | 0 | 99 |
-| last720d | 2024-11-14 | 0 | 170 | 59 | 0 | 0 | 173 |
+| 30d | 2026-10-06 | 0 | 7 | 14 | 0 | 0 | 11 |
+| last60d | 2026-09-06 | 0 | 17 | 20 | 0 | 0 | 34 |
+| 90d | 2026-08-07 | 0 | 34 | 22 | 0 | 0 | 47 |
+| last180d | 2026-05-09 | 0 | 62 | 35 | 0 | 0 | 68 |
+| 360d | 2025-11-10 | 0 | 93 | 47 | 0 | 0 | 100 |
+| last720d | 2024-11-15 | 0 | 173 | 58 | 0 | 0 | 174 |
 
 ## 发行版状态
 
-在 [repology.org](https://repology.org/project/zookeeper) 上共有 **81** 个发行版报告此项目。**1** 个 ✅ 已是最新上游版本，**74** 个 ⚠️ 使用旧版本。
+在 [repology.org](https://repology.org/project/zookeeper) 上共有 **80** 个发行版报告此项目。**1** 个 ✅ 已是最新上游版本，**73** 个 ⚠️ 使用旧版本。
 
 | 发行版 | 版本 | 状态 |
 |--------|------|------|
@@ -82,4 +82,4 @@ zookeeper 的安装元数据由 [x-cmd/install](https://github.com/x-cmd/install
 
 本页面的数据（card / loc / scorecard / release）由 [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) 自动采集，每日重新生成。**安装行为**（版本选择、平台差异、依赖处理）的改进应提交到上游索引。
 
-_数据快照: `data/card/261104.yml` · 2026-11-04T06:20:34Z._
+_数据快照: `data/card/261105.yml` · 2026-11-05T06:49:02Z._
