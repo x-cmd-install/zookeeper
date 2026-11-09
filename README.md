@@ -42,7 +42,7 @@ Lowest-scoring checks:
 
 ## Popularity
 
-- **Stars**: 12,831 · **Forks**: 7,325 · **Open issues**: 0 · **Contributors**: 271
+- **Stars**: 12,830 · **Forks**: 7,325 · **Open issues**: 0 · **Contributors**: 271
 
 ## Totals (cumulative)
 
@@ -52,12 +52,26 @@ Lowest-scoring checks:
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-10-09 | 0 | 8 | 20 | 0 | 0 | 12 |
-| last60d | 2026-09-09 | 0 | 18 | 27 | 0 | 0 | 35 |
-| 90d | 2026-08-10 | 0 | 35 | 29 | 0 | 0 | 48 |
-| last180d | 2026-05-12 | 0 | 63 | 42 | 0 | 0 | 69 |
-| 360d | 2025-11-13 | 0 | 93 | 54 | 0 | 0 | 101 |
-| last720d | 2024-11-18 | 0 | 174 | 65 | 0 | 0 | 175 |
+| 30d | 2026-10-10 | 0 | 8 | 19 | 0 | 0 | 12 |
+| last60d | 2026-09-10 | 0 | 18 | 26 | 0 | 0 | 30 |
+| 90d | 2026-08-11 | 0 | 34 | 29 | 0 | 0 | 46 |
+| last180d | 2026-05-13 | 0 | 61 | 42 | 0 | 0 | 67 |
+| 360d | 2025-11-14 | 0 | 93 | 54 | 0 | 0 | 101 |
+| last720d | 2024-11-19 | 0 | 174 | 65 | 0 | 0 | 175 |
+
+## Distribution status
+
+Reported by **81** distros on [repology.org](https://repology.org/project/zookeeper). **1** are ✅ on the latest upstream release, **74** are ⚠️ on an older version.
+
+| Distro | Version | Status |
+|--------|---------|--------|
+| Debian unstable | `3.9.7` | ⚠️ outdated |
+| Debian 14 | `3.9.6` | ⚠️ outdated |
+| Debian 13 | `3.9.3` | ⚠️ outdated |
+| Ubuntu 26.04 LTS | `3.9.5` | ⚠️ outdated |
+| Ubuntu 24.04 LTS | `3.9.1` | ⚠️ outdated |
+| Homebrew | `3.9.7` | ⚠️ outdated |
+| Nix unstable | `3.9.5` | ⚠️ outdated |
 
 ## Improve this data
 
@@ -68,4 +82,4 @@ Install metadata for zookeeper lives in the [x-cmd/install](https://github.com/x
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/261108.yml` · 2026-11-08T06:04:24Z._
+_Snapshot: `data/card/261109.yml` · 2026-11-09T06:23:14Z._
