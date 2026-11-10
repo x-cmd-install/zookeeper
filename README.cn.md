@@ -14,11 +14,11 @@ x install zookeeper
 
 ## 代码洞察
 
-合计: **193,625** 行代码（覆盖前 5 种语言、共 **1109** 个文件）。
+合计: **193,624** 行代码（覆盖前 5 种语言、共 **1109** 个文件）。
 
 | 语言 | 代码 | 注释 | 空行 | 文件数 |
 |------|-----:|-----:|-----:|------:|
-| Java | 128,679 | 43,091 | 24,688 | 952 |
+| Java | 128,680 | 43,091 | 24,691 | 952 |
 | Json | 13,502 | 0 | 1 | 11 |
 | Cpp | 11,467 | 3,348 | 1,815 | 35 |
 | C | 10,699 | 1,410 | 1,387 | 16 |
@@ -26,12 +26,12 @@ x install zookeeper
 
 ## OpenSSF Scorecard 评分
 
-总评分: **6.3 / 10**
+总评分: **6.2 / 10**
 
 评分最低的几项:
 
-- **Token-Permissions** (0/10) — detected GitHub workflow tokens with excessive permissions
 - **Packaging** (-1/10) — packaging workflow not detected
+- **Token-Permissions** (0/10) — detected GitHub workflow tokens with excessive permissions
 - **CII-Best-Practices** (0/10) — no effort to earn an OpenSSF best practices badge detected
 
 ## 源代码
@@ -42,36 +42,22 @@ x install zookeeper
 
 ## 流行度
 
-- **Star**: 12,830 · **Fork**: 7,325 · **开放 issue**: 0 · **贡献者**: 271
+- **Star**: 12,830 · **Fork**: 7,326 · **开放 issue**: 0 · **贡献者**: 271
 
 ## 累计统计
 
-- **发布数**: 0 · **已合并 PR**: 356 · **开放 PR**: 255 · **已关闭 issue**: 0 · **开放 issue**: 0 · **提交数**: 2768
+- **发布数**: 0 · **已合并 PR**: 357 · **开放 PR**: 255 · **已关闭 issue**: 0 · **开放 issue**: 0 · **提交数**: 2772
 
 ## 最近活动
 
 | 时间窗口 | 起始 | 发布 | 已合并 PR | 开放 PR | 已关闭 issue | 开放 issue | 提交 |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-10-10 | 0 | 8 | 19 | 0 | 0 | 12 |
-| last60d | 2026-09-10 | 0 | 18 | 26 | 0 | 0 | 30 |
-| 90d | 2026-08-11 | 0 | 34 | 29 | 0 | 0 | 46 |
-| last180d | 2026-05-13 | 0 | 61 | 42 | 0 | 0 | 67 |
-| 360d | 2025-11-14 | 0 | 93 | 54 | 0 | 0 | 101 |
-| last720d | 2024-11-19 | 0 | 174 | 65 | 0 | 0 | 175 |
-
-## 发行版状态
-
-在 [repology.org](https://repology.org/project/zookeeper) 上共有 **81** 个发行版报告此项目。**1** 个 ✅ 已是最新上游版本，**74** 个 ⚠️ 使用旧版本。
-
-| 发行版 | 版本 | 状态 |
-|--------|------|------|
-| Debian unstable | `3.9.7` | ⚠️ outdated |
-| Debian 14 | `3.9.6` | ⚠️ outdated |
-| Debian 13 | `3.9.3` | ⚠️ outdated |
-| Ubuntu 26.04 LTS | `3.9.5` | ⚠️ outdated |
-| Ubuntu 24.04 LTS | `3.9.1` | ⚠️ outdated |
-| Homebrew | `3.9.7` | ⚠️ outdated |
-| Nix unstable | `3.9.5` | ⚠️ outdated |
+| 30d | 2026-10-11 | 0 | 9 | 19 | 0 | 0 | 16 |
+| last60d | 2026-09-11 | 0 | 19 | 25 | 0 | 0 | 34 |
+| 90d | 2026-08-12 | 0 | 34 | 29 | 0 | 0 | 50 |
+| last180d | 2026-05-14 | 0 | 61 | 42 | 0 | 0 | 71 |
+| 360d | 2025-11-15 | 0 | 94 | 54 | 0 | 0 | 105 |
+| last720d | 2024-11-20 | 0 | 175 | 65 | 0 | 0 | 179 |
 
 ## 改进这些数据
 
@@ -82,4 +68,4 @@ zookeeper 的安装元数据由 [x-cmd/install](https://github.com/x-cmd/install
 
 本页面的数据（card / loc / scorecard / release）由 [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) 自动采集，每日重新生成。**安装行为**（版本选择、平台差异、依赖处理）的改进应提交到上游索引。
 
-_数据快照: `data/card/261109.yml` · 2026-11-09T06:23:15Z._
+_数据快照: `data/card/261110.yml` · 2026-11-10T07:34:57Z._
