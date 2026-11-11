@@ -42,22 +42,36 @@ Lowest-scoring checks:
 
 ## Popularity
 
-- **Stars**: 12,830 · **Forks**: 7,326 · **Open issues**: 0 · **Contributors**: 271
+- **Stars**: 12,832 · **Forks**: 7,326 · **Open issues**: 0 · **Contributors**: 271
 
 ## Totals (cumulative)
 
-- **Releases**: 0 · **Merged PRs**: 357 · **Open PRs**: 255 · **Closed issues**: 0 · **Open issues**: 0 · **Commits**: 2772
+- **Releases**: 0 · **Merged PRs**: 357 · **Open PRs**: 256 · **Closed issues**: 0 · **Open issues**: 0 · **Commits**: 2772
 
 ## Recent activity
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-10-11 | 0 | 9 | 19 | 0 | 0 | 16 |
-| last60d | 2026-09-11 | 0 | 19 | 25 | 0 | 0 | 34 |
-| 90d | 2026-08-12 | 0 | 34 | 29 | 0 | 0 | 50 |
-| last180d | 2026-05-14 | 0 | 61 | 42 | 0 | 0 | 71 |
-| 360d | 2025-11-15 | 0 | 94 | 54 | 0 | 0 | 105 |
-| last720d | 2024-11-20 | 0 | 175 | 65 | 0 | 0 | 179 |
+| 30d | 2026-10-12 | 0 | 8 | 20 | 0 | 0 | 16 |
+| last60d | 2026-09-12 | 0 | 19 | 26 | 0 | 0 | 34 |
+| 90d | 2026-08-13 | 0 | 33 | 30 | 0 | 0 | 50 |
+| last180d | 2026-05-15 | 0 | 61 | 42 | 0 | 0 | 71 |
+| 360d | 2025-11-16 | 0 | 94 | 55 | 0 | 0 | 105 |
+| last720d | 2024-11-21 | 0 | 175 | 66 | 0 | 0 | 179 |
+
+## Distribution status
+
+Reported by **81** distros on [repology.org](https://repology.org/project/zookeeper). **1** are ✅ on the latest upstream release, **74** are ⚠️ on an older version.
+
+| Distro | Version | Status |
+|--------|---------|--------|
+| Debian unstable | `3.9.7` | ⚠️ outdated |
+| Debian 14 | `3.9.6` | ⚠️ outdated |
+| Debian 13 | `3.9.3` | ⚠️ outdated |
+| Ubuntu 26.04 LTS | `3.9.5` | ⚠️ outdated |
+| Ubuntu 24.04 LTS | `3.9.1` | ⚠️ outdated |
+| Homebrew | `3.9.7` | ⚠️ outdated |
+| Nix unstable | `3.9.5` | ⚠️ outdated |
 
 ## Improve this data
 
@@ -68,4 +82,4 @@ Install metadata for zookeeper lives in the [x-cmd/install](https://github.com/x
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/261110.yml` · 2026-11-10T07:34:56Z._
+_Snapshot: `data/card/261111.yml` · 2026-11-11T06:16:15Z._
