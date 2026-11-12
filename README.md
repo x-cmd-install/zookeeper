@@ -52,12 +52,12 @@ Lowest-scoring checks:
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-10-12 | 0 | 8 | 20 | 0 | 0 | 16 |
-| last60d | 2026-09-12 | 0 | 19 | 26 | 0 | 0 | 34 |
-| 90d | 2026-08-13 | 0 | 33 | 30 | 0 | 0 | 50 |
-| last180d | 2026-05-15 | 0 | 61 | 42 | 0 | 0 | 71 |
-| 360d | 2025-11-16 | 0 | 94 | 55 | 0 | 0 | 105 |
-| last720d | 2024-11-21 | 0 | 175 | 66 | 0 | 0 | 179 |
+| 30d | 2026-10-13 | 0 | 8 | 20 | 0 | 0 | 16 |
+| last60d | 2026-09-13 | 0 | 19 | 26 | 0 | 0 | 34 |
+| 90d | 2026-08-14 | 0 | 32 | 30 | 0 | 0 | 50 |
+| last180d | 2026-05-16 | 0 | 61 | 42 | 0 | 0 | 71 |
+| 360d | 2025-11-17 | 0 | 93 | 55 | 0 | 0 | 105 |
+| last720d | 2024-11-22 | 0 | 175 | 66 | 0 | 0 | 179 |
 
 ## Distribution status
 
@@ -66,7 +66,7 @@ Reported by **81** distros on [repology.org](https://repology.org/project/zookee
 | Distro | Version | Status |
 |--------|---------|--------|
 | Debian unstable | `3.9.7` | ⚠️ outdated |
-| Debian 14 | `3.9.6` | ⚠️ outdated |
+| Debian 14 | `3.9.7` | ⚠️ outdated |
 | Debian 13 | `3.9.3` | ⚠️ outdated |
 | Ubuntu 26.04 LTS | `3.9.5` | ⚠️ outdated |
 | Ubuntu 24.04 LTS | `3.9.1` | ⚠️ outdated |
@@ -82,4 +82,4 @@ Install metadata for zookeeper lives in the [x-cmd/install](https://github.com/x
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/261111.yml` · 2026-11-11T06:16:15Z._
+_Snapshot: `data/card/261112.yml` · 2026-11-12T07:25:05Z._
