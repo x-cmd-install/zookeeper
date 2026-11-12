@@ -25,8 +25,8 @@
     - zookeeper-bin
     - python3-zookeeper
   visiblename: zookeeper
-  version: 3.9.6
-  origversion: 3.9.6-3
+  version: 3.9.7
+  origversion: 3.9.7-1
   status: outdated
   maintainers:
     - pkg-java-maintainers@lists.alioth.debian.org
@@ -260,13 +260,40 @@
 - repo: wikidata
   srcname: Q4778968
   visiblename: Apache ZooKeeper
-  version: 3.9.7-1
+  version: 3.10.0-0
   origversion: null
   status: newest
   summary: system for distributed coordination
   licenses:
     - Apache License
 - repo: nix_stable_25_11
+  srcname: zookeeper
+  visiblename: zookeeper
+  version: 3.9.4
+  origversion: null
+  status: outdated
+  summary: Apache Zookeeper
+  maintainers:
+    - nathan@nathan.gs
+    - dd@crosstwine.com
+  licenses:
+    - Apache-2.0
+  vulnerable: true
+- repo: nix_stable_24_11
+  srcname: zookeeper
+  visiblename: zookeeper
+  version: 3.9.3
+  origversion: null
+  status: outdated
+  summary: Apache Zookeeper
+  maintainers:
+    - nathan@nathan.gs
+    - pradeep.chhetri89@gmail.com
+    - dd@crosstwine.com
+  licenses:
+    - Apache-2.0
+  vulnerable: true
+- repo: nix_stable_25_05
   srcname: zookeeper
   visiblename: zookeeper
   version: 3.9.4
@@ -340,31 +367,6 @@
     - tmancill@debian.org
   categories:
     - net
-  vulnerable: true
-- repo: openeuler_20_03_lts_sp4
-  srcname: zookeeper
-  visiblename: zookeeper
-  version: 3.6.1
-  origversion: 3.6.1-2.6.oe2003sp4
-  status: outdated
-  summary: High-performance coordination service for distributed applications.
-  licenses:
-    - Apache-2.0 and OpenSSL and SSLeay and MIT and BSD
-  categories:
-    - Applications/Databases
-  vulnerable: true
-- repo: nix_stable_25_05
-  srcname: zookeeper
-  visiblename: zookeeper
-  version: 3.9.4
-  origversion: null
-  status: outdated
-  summary: Apache Zookeeper
-  maintainers:
-    - nathan@nathan.gs
-    - dd@crosstwine.com
-  licenses:
-    - Apache-2.0
   vulnerable: true
 - repo: debian_11
   subrepo: bullseye-security/main
@@ -540,6 +542,19 @@
     - net
   vulnerable: true
 - repo: freebsd
+  srcname: devel/libzookeeper
+  binname: libzookeeper
+  visiblename: devel/libzookeeper
+  version: 3.8.3
+  origversion: null
+  status: outdated
+  summary: C client interface to Zookeeper server
+  maintainers:
+    - ports@freebsd.org
+  categories:
+    - devel
+  vulnerable: true
+- repo: freebsd
   srcname: devel/zookeeper
   binname: zookeeper
   visiblename: devel/zookeeper
@@ -552,18 +567,19 @@
   categories:
     - devel
   vulnerable: true
-- repo: freebsd
-  srcname: devel/libzookeeper
-  binname: libzookeeper
-  visiblename: devel/libzookeeper
-  version: 3.8.3
-  origversion: null
+- repo: openeuler_22_03_lts_sp4
+  srcname: zookeeper
+  binnames:
+    - zookeeper
+  visiblename: zookeeper
+  version: 3.6.2
+  origversion: 3.6.2-2.4.oe2203sp4
   status: outdated
-  summary: C client interface to Zookeeper server
-  maintainers:
-    - ports@freebsd.org
+  summary: High-performance coordination service for distributed applications.
+  licenses:
+    - Apache-2.0 and OpenSSL and SSLeay and MIT and BSD
   categories:
-    - devel
+    - Applications/Databases
   vulnerable: true
 - repo: haikuports_master
   srcname: haiku-apps/zookeeper
@@ -604,20 +620,6 @@
   categories:
     - sys-cluster
   vulnerable: true
-- repo: openeuler_22_03_lts_sp1
-  srcname: zookeeper
-  binnames:
-    - zookeeper
-  visiblename: zookeeper
-  version: 3.6.2
-  origversion: 3.6.2-2.4.oe2203sp1
-  status: outdated
-  summary: High-performance coordination service for distributed applications.
-  licenses:
-    - Apache-2.0 and OpenSSL and SSLeay and MIT and BSD
-  categories:
-    - Applications/Databases
-  vulnerable: true
 - repo: liguros_stable
   srcname: sys-cluster/zookeeper-bin
   visiblename: sys-cluster/zookeeper-bin
@@ -652,20 +654,6 @@
   srcname: zookeeper
   visiblename: zookeeper
   version: 3.9.2
-  origversion: null
-  status: outdated
-  summary: Apache Zookeeper
-  maintainers:
-    - nathan@nathan.gs
-    - pradeep.chhetri89@gmail.com
-    - dd@crosstwine.com
-  licenses:
-    - Apache-2.0
-  vulnerable: true
-- repo: nix_stable_24_11
-  srcname: zookeeper
-  visiblename: zookeeper
-  version: 3.9.3
   origversion: null
   status: outdated
   summary: Apache Zookeeper
@@ -714,13 +702,11 @@
   categories:
     - Applications/Databases
   vulnerable: true
-- repo: openeuler_22_03_lts_sp3
+- repo: openeuler_20_03_lts_sp4
   srcname: zookeeper
-  binnames:
-    - zookeeper
   visiblename: zookeeper
-  version: 3.6.2
-  origversion: 3.6.2-2.4.oe2203sp3
+  version: 3.6.1
+  origversion: 3.6.1-2.6.oe2003sp4
   status: outdated
   summary: High-performance coordination service for distributed applications.
   licenses:
@@ -728,13 +714,27 @@
   categories:
     - Applications/Databases
   vulnerable: true
-- repo: openeuler_22_03_lts_sp4
+- repo: openeuler_22_03_lts_sp1
   srcname: zookeeper
   binnames:
     - zookeeper
   visiblename: zookeeper
   version: 3.6.2
-  origversion: 3.6.2-2.4.oe2203sp4
+  origversion: 3.6.2-2.4.oe2203sp1
+  status: outdated
+  summary: High-performance coordination service for distributed applications.
+  licenses:
+    - Apache-2.0 and OpenSSL and SSLeay and MIT and BSD
+  categories:
+    - Applications/Databases
+  vulnerable: true
+- repo: openeuler_22_03_lts_sp3
+  srcname: zookeeper
+  binnames:
+    - zookeeper
+  visiblename: zookeeper
+  version: 3.6.2
+  origversion: 3.6.2-2.4.oe2203sp3
   status: outdated
   summary: High-performance coordination service for distributed applications.
   licenses:
@@ -849,31 +849,6 @@
     - net
   vulnerable: true
 - repo: parrot
-  subrepo: parrot-updates/main
-  srcname: zookeeper
-  binnames:
-    - libzookeeper-java
-    - zookeeper
-    - zookeeperd
-    - libzookeeper-java-doc
-    - libzookeeper-mt2
-    - libzookeeper-st2
-    - libzookeeper-mt-dev
-    - libzookeeper-st-dev
-    - zookeeper-bin
-    - python3-zookeeper
-  visiblename: zookeeper
-  version: 3.9.3
-  origversion: 3.9.3-1+deb13u1
-  status: outdated
-  maintainers:
-    - pkg-java-maintainers@lists.alioth.debian.org
-    - james.page@ubuntu.com
-    - tmancill@debian.org
-  categories:
-    - net
-  vulnerable: true
-- repo: parrot
   subrepo: parrot/main
   srcname: zookeeper
   binnames:
@@ -898,18 +873,30 @@
   categories:
     - net
   vulnerable: true
-- repo: pkgsrc_2026_2
-  srcname: devel/zookeeper
-  binname: zookeeper
-  visiblename: devel/zookeeper
-  version: 3.4.12
-  origversion: null
+- repo: parrot
+  subrepo: parrot-updates/main
+  srcname: zookeeper
+  binnames:
+    - libzookeeper-java
+    - zookeeper
+    - zookeeperd
+    - libzookeeper-java-doc
+    - libzookeeper-mt2
+    - libzookeeper-st2
+    - libzookeeper-mt-dev
+    - libzookeeper-st-dev
+    - zookeeper-bin
+    - python3-zookeeper
+  visiblename: zookeeper
+  version: 3.9.3
+  origversion: 3.9.3-1+deb13u1
   status: outdated
-  summary: Highly reliable distributed coordination server
   maintainers:
-    - pkgsrc-users@netbsd.org
+    - pkg-java-maintainers@lists.alioth.debian.org
+    - james.page@ubuntu.com
+    - tmancill@debian.org
   categories:
-    - devel
+    - net
   vulnerable: true
 - repo: pkgsrc_2026_2
   srcname: devel/libzookeeper
@@ -924,14 +911,14 @@
   categories:
     - devel
   vulnerable: true
-- repo: pkgsrc_2026_3
-  srcname: devel/libzookeeper
-  binname: libzookeeper
-  visiblename: devel/libzookeeper
+- repo: pkgsrc_2026_2
+  srcname: devel/zookeeper
+  binname: zookeeper
+  visiblename: devel/zookeeper
   version: 3.4.12
   origversion: null
   status: outdated
-  summary: Highly reliable distributed coordination C lib
+  summary: Highly reliable distributed coordination server
   maintainers:
     - pkgsrc-users@netbsd.org
   categories:
@@ -945,6 +932,19 @@
   origversion: null
   status: outdated
   summary: Highly reliable distributed coordination server
+  maintainers:
+    - pkgsrc-users@netbsd.org
+  categories:
+    - devel
+  vulnerable: true
+- repo: pkgsrc_2026_3
+  srcname: devel/libzookeeper
+  binname: libzookeeper
+  visiblename: devel/libzookeeper
+  version: 3.4.12
+  origversion: null
+  status: outdated
+  summary: Highly reliable distributed coordination C lib
   maintainers:
     - pkgsrc-users@netbsd.org
   categories:
