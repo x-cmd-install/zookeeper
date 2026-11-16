@@ -42,7 +42,7 @@ Lowest-scoring checks:
 
 ## Popularity
 
-- **Stars**: 12,833 · **Forks**: 7,331 · **Open issues**: 0 · **Contributors**: 271
+- **Stars**: 12,832 · **Forks**: 7,329 · **Open issues**: 0 · **Contributors**: 271
 
 ## Totals (cumulative)
 
@@ -52,16 +52,16 @@ Lowest-scoring checks:
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-10-16 | 0 | 6 | 24 | 0 | 0 | 16 |
-| last60d | 2026-09-16 | 0 | 17 | 30 | 0 | 0 | 34 |
-| 90d | 2026-08-17 | 0 | 31 | 34 | 0 | 0 | 50 |
-| last180d | 2026-05-19 | 0 | 60 | 47 | 0 | 0 | 71 |
-| 360d | 2025-11-20 | 0 | 93 | 60 | 0 | 0 | 105 |
-| last720d | 2024-11-25 | 0 | 171 | 71 | 0 | 0 | 178 |
+| 30d | 2026-10-17 | 0 | 6 | 24 | 0 | 0 | 12 |
+| last60d | 2026-09-17 | 0 | 16 | 29 | 0 | 0 | 27 |
+| 90d | 2026-08-18 | 0 | 31 | 34 | 0 | 0 | 48 |
+| last180d | 2026-05-20 | 0 | 59 | 46 | 0 | 0 | 70 |
+| 360d | 2025-11-21 | 0 | 93 | 60 | 0 | 0 | 105 |
+| last720d | 2024-11-26 | 0 | 171 | 71 | 0 | 0 | 177 |
 
 ## Distribution status
 
-Reported by **81** distros on [repology.org](https://repology.org/project/zookeeper). **1** are ✅ on the latest upstream release, **74** are ⚠️ on an older version.
+Reported by **83** distros on [repology.org](https://repology.org/project/zookeeper). **1** are ✅ on the latest upstream release, **74** are ⚠️ on an older version.
 
 | Distro | Version | Status |
 |--------|---------|--------|
@@ -82,4 +82,4 @@ Install metadata for zookeeper lives in the [x-cmd/install](https://github.com/x
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/261115.yml` · 2026-11-15T06:37:37Z._
+_Snapshot: `data/card/261116.yml` · 2026-11-16T06:44:14Z._
