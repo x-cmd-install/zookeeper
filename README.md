@@ -14,14 +14,14 @@ x install zookeeper
 
 ## Code insight
 
-Total: **194,147** lines of code across **1110** files in the top 5 languages.
+Total: **195,605** lines of code across **1112** files in the top 5 languages.
 
 | Language | Code | Comments | Blanks | Files |
 |----------|-----:|---------:|-------:|------:|
 | Java | 128,957 | 43,216 | 24,748 | 952 |
 | Json | 13,502 | 0 | 1 | 11 |
-| Cpp | 11,694 | 3,377 | 1,849 | 36 |
-| C | 10,715 | 1,420 | 1,388 | 16 |
+| Cpp | 12,979 | 3,530 | 2,029 | 38 |
+| C | 10,872 | 1,513 | 1,392 | 16 |
 | Tsx | 7,750 | 1,780 | 874 | 95 |
 
 ## OpenSSF Scorecard
@@ -42,36 +42,22 @@ Lowest-scoring checks:
 
 ## Popularity
 
-- **Stars**: 12,833 · **Forks**: 7,330 · **Open issues**: 0 · **Contributors**: 270
+- **Stars**: 12,834 · **Forks**: 7,328 · **Open issues**: 0 · **Contributors**: 271
 
 ## Totals (cumulative)
 
-- **Releases**: 0 · **Merged PRs**: 361 · **Open PRs**: 259 · **Closed issues**: 0 · **Open issues**: 0 · **Commits**: 2776
+- **Releases**: 0 · **Merged PRs**: 367 · **Open PRs**: 256 · **Closed issues**: 0 · **Open issues**: 0 · **Commits**: 2782
 
 ## Recent activity
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-10-25 | 0 | 9 | 18 | 0 | 0 | 14 |
-| last60d | 2026-09-25 | 0 | 19 | 27 | 0 | 0 | 27 |
-| 90d | 2026-08-26 | 0 | 30 | 33 | 0 | 0 | 46 |
-| last180d | 2026-05-28 | 0 | 62 | 44 | 0 | 0 | 73 |
-| 360d | 2025-11-29 | 0 | 97 | 58 | 0 | 0 | 106 |
-| last720d | 2024-12-04 | 0 | 175 | 69 | 0 | 0 | 175 |
-
-## Distribution status
-
-Reported by **81** distros on [repology.org](https://repology.org/project/zookeeper). **1** are ✅ on the latest upstream release, **72** are ⚠️ on an older version.
-
-| Distro | Version | Status |
-|--------|---------|--------|
-| Debian unstable | `3.9.7` | ⚠️ outdated |
-| Debian 14 | `3.9.7` | ⚠️ outdated |
-| Debian 13 | `3.9.3` | ⚠️ outdated |
-| Ubuntu 26.04 LTS | `3.9.5` | ⚠️ outdated |
-| Ubuntu 24.04 LTS | `3.9.1` | ⚠️ outdated |
-| Homebrew | `3.9.7` | ⚠️ outdated |
-| Nix unstable | `3.9.5` | ⚠️ outdated |
+| 30d | 2026-10-26 | 0 | 15 | 15 | 0 | 0 | 20 |
+| last60d | 2026-09-26 | 0 | 25 | 24 | 0 | 0 | 33 |
+| 90d | 2026-08-27 | 0 | 36 | 30 | 0 | 0 | 52 |
+| last180d | 2026-05-29 | 0 | 67 | 41 | 0 | 0 | 79 |
+| 360d | 2025-11-30 | 0 | 103 | 55 | 0 | 0 | 112 |
+| last720d | 2024-12-05 | 0 | 181 | 66 | 0 | 0 | 181 |
 
 ## Improve this data
 
@@ -82,4 +68,4 @@ Install metadata for zookeeper lives in the [x-cmd/install](https://github.com/x
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/261124.yml` · 2026-11-24T10:09:13Z._
+_Snapshot: `data/card/261125.yml` · 2026-11-25T08:41:34Z._
