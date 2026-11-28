@@ -42,7 +42,7 @@ Lowest-scoring checks:
 
 ## Popularity
 
-- **Stars**: 12,836 · **Forks**: 7,330 · **Open issues**: 0 · **Contributors**: 271
+- **Stars**: 12,836 · **Forks**: 7,328 · **Open issues**: 0 · **Contributors**: 271
 
 ## Totals (cumulative)
 
@@ -52,12 +52,12 @@ Lowest-scoring checks:
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-10-28 | 0 | 15 | 16 | 0 | 0 | 20 |
-| last60d | 2026-09-28 | 0 | 25 | 25 | 0 | 0 | 33 |
-| 90d | 2026-08-29 | 0 | 35 | 31 | 0 | 0 | 52 |
-| last180d | 2026-05-31 | 0 | 67 | 41 | 0 | 0 | 79 |
-| 360d | 2025-12-02 | 0 | 103 | 56 | 0 | 0 | 112 |
-| last720d | 2024-12-07 | 0 | 181 | 67 | 0 | 0 | 181 |
+| 30d | 2026-10-29 | 0 | 15 | 15 | 0 | 0 | 20 |
+| last60d | 2026-09-29 | 0 | 25 | 26 | 0 | 0 | 33 |
+| 90d | 2026-08-30 | 0 | 35 | 32 | 0 | 0 | 52 |
+| last180d | 2026-06-01 | 0 | 67 | 42 | 0 | 0 | 79 |
+| 360d | 2025-12-03 | 0 | 103 | 57 | 0 | 0 | 112 |
+| last720d | 2024-12-08 | 0 | 181 | 68 | 0 | 0 | 179 |
 
 ## Improve this data
 
@@ -68,4 +68,4 @@ Install metadata for zookeeper lives in the [x-cmd/install](https://github.com/x
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/261127.yml` · 2026-11-27T08:42:21Z._
+_Snapshot: `data/card/261128.yml` · 2026-11-28T07:55:30Z._
